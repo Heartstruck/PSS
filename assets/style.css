@@ -1,9 +1,17 @@
+@font-face {
+    font-family: "Determination Mono";
+    src: 
+        local("Determination Mono"),
+        url(/assets/determination-mono.otf), format("opentype");
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: monospace;
+    font-family: "Determination Mono";
     background: #000000;
-}
+    font-size: 20px;
+} 
 
 #disclaim {
     padding: 8px 16px;
