@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Determination Mono";
+    src: 
+        local("Determination Mono"),
+        url(/assets/determination-mono.otf), format("opentype");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Determination Mono";
+    background: #000000;
+    font-size: 20px;
+} 
+
+#disclaim {
+    padding: 8px 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px rgba(255, 255, 255, 0.1) solid;
+    border-radius: 8px;
+
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+#rals {
+    display: block;
+    margin: 0 auto;
+    image-rendering: pixelated;
+}
